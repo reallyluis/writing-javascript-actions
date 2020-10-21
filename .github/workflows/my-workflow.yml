@@ -31,3 +31,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      # Runs another single command using the runners shell
+      - name: Run another one-line script
+        run: echo Goodbye, world!
